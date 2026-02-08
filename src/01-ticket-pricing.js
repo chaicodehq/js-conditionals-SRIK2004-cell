@@ -1,4 +1,4 @@
-3/**
+/**
  * 🎬 The Starlight Cinema
  *
  * You've just been hired at Starlight Cinema! Your first task is to build
@@ -23,26 +23,5 @@
  * @returns {number} The ticket price, or -1 for invalid input
  */
 export function getTicketPrice(age, isWeekend) {
-
-
-  if(typeof age !=="number" || age < 0) 
-    return -1;
-
-  var ticket;
-
-  if(age>= 0 && age<=12) {
-    ticket = 8; }
-  else if(age>= 13 && age<=17) {
-    ticket = 12;}
-  else if(age>= 18 && age<=59) {
-    ticket = 15;}
-  else if(age>=60) {
-    ticket = 10;}
-
-  if(isWeekend)
-    ticket += 3;
-
-  return ticket;
-
-
+  // Your code here
 }
